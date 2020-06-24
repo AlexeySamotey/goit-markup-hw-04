@@ -452,3 +452,6 @@ address {
 img {
   display: block;
 }
+.social-link-item {
+  background-color: blue;
+}
