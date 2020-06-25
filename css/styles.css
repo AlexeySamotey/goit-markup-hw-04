@@ -139,6 +139,9 @@ header {
   align-items: center;
   display: block;
 }
+.icon-header {
+  margin-right: 10px;
+}
 /* main section */
 .header h1 {
   margin-top: 0;
@@ -270,6 +273,20 @@ header {
   line-height: 1.17;
   text-align: center;
 }
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.social-anchor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+.social-list-item:not(:first-child) {
+  margin-left: 10px;
+}
 
 .function {
   visibility: hidden;
@@ -389,6 +406,17 @@ address {
 .subscribe {
   width: calc((100% - 60px) / 4);
 }
+.link-footer {
+  --color4: #ffffff;
+}
+.link-footer {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer-social:not(:first-child) {
+  margin-left: 10px;
+}
+
 /* portfolio */
 /* buttons */
 .btn {
@@ -492,18 +520,5 @@ img {
   height: 44px;
 }
 .social-list-item:not(:first-child) {
-  margin-left: 10px;
-}
-.icon-header {
-  margin-right: 10px;
-}
-.link-footer {
-  --color4: #ffffff;
-}
-.link-footer {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-}
-.footer-social:not(:first-child) {
   margin-left: 10px;
 }
